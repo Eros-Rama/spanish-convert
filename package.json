@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "NODE_ENV=production node server.js",
-    "dev": "NODE_ENV=development node --watch --env-file=.env server.js",
+    "dev": "NODE_ENV=development node --trace-warnings --trace-deprecation --watch --env-file=.env server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
